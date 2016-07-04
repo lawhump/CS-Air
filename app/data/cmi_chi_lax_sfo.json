@@ -1,0 +1,71 @@
+
+{
+  "data sources" : [
+    "http://www.gcmap.com/" ,
+    "http://www.theodora.com/country_digraphs.html" ,
+    "http://www.citypopulation.de/world/Agglomerations.html" ,
+    "http://www.mongabay.com/cities_urban_01.htm" ,
+    "http://en.wikipedia.org/wiki/Urban_agglomeration" ,
+    "http://www.worldtimezone.com/standard.html"
+  ] ,
+  "metros" : [
+    {
+      "code" : "LAX" ,
+      "name" : "Los Angeles" ,
+      "country" : "US" ,
+      "continent" : "North America" ,
+      "timezone" : -8 ,
+      "coordinates" : {"N" : 34, "W" : 118} ,
+      "population" : 17900000 ,
+      "region" : 1
+    } , {
+      "code" : "SFO" ,
+      "name" : "San Francisco" ,
+      "country" : "US" ,
+      "continent" : "North America" ,
+      "timezone" : -8 ,
+      "coordinates" : {"N" : 38, "W" : 122} ,
+      "population" : 7450000 ,
+      "region" : 3
+    } , {
+      "code" : "CHI" ,
+      "name" : "Chicago" ,
+      "country" : "US" ,
+      "continent" : "North America" ,
+      "timezone" : -6 ,
+      "coordinates" : {"N" : 42, "W" : 88} ,
+      "population" : 9850000 ,
+      "region" : 3
+    } , {
+      "code" : "CMI" ,
+      "name" : "Champaign" ,
+      "country" : "US" ,
+      "continent" : "North America" ,
+      "timezone" : -6 ,
+      "coordinates" : {"N" : 40, "W" : 88} ,
+      "population" : 226000 ,
+      "region" : 1
+    }
+  ] ,
+  "routes" : [
+    {
+      "ports" : ["LAX" , "SFO"] ,
+      "distance" : 543
+    } , {
+      "ports" : ["LAX" , "CHI"] ,
+      "distance" : 2828
+    } , {
+      "ports" : ["SFO" , "CHI"] ,
+      "distance" : 2994
+    } , {
+      "ports" : ["CMI" , "LAX"],
+      "distance" : 2736
+    } , {
+      "ports" : ["CMI" , "SFO"],
+      "distance" : 2955
+    } , {
+      "ports" : ["CMI" , "CHI"],
+      "distance" : 198
+    }
+  ]
+}
